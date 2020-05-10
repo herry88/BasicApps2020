@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Toast"/>
+
+    <Button
+        android:id="@+id/bListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Halaman ListView"/>
+
+    <Button
+        android:id="@+id/bSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Halaman Spinner"/>
+
+    <Button
+        android:id="@+id/bForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Halaman Form"/>
+
+    <Button
+        android:id="@+id/bExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"/>
+</LinearLayout>
